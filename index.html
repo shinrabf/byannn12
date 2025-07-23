@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fabian Maliki Akbar - Web Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f5f7fa;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    header {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      padding: 4rem 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    section {
+      padding: 3rem 0;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+      color: #2c3e50;
+    }
+
+    #skills ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    #skills li {
+      background: #3498db;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 20px;
+      font-weight: 600;
+    }
+
+    .project-card {
+      background: #fff;
+      border-left: 6px solid #2980b9;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem 0;
+      background: #2c3e50;
+      color: #fff;
+      margin-top: 2rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      #skills ul {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+
+      section h2 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Fabian Maliki Akbar</h1>
+      <p>Kelas XII TKJ 3 | Web & Network Enthusiast</p>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>Tentang Saya</h2>
+      <p>Saya adalah siswa kelas XII TKJ 3 yang memiliki minat besar dalam pengembangan web, jaringan komputer, dan teknologi modern. Saya senang mempelajari hal baru dan mengembangkan solusi kreatif menggunakan teknologi.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Keahlian</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Desain Web Responsif</li>
+        <li>Manajemen Jaringan</li>
+        <li>Mikrotik & Cisco Networking</li>
+        <li>Linux Server & Windows Server</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Proyek</h2>
+      <div class="project-card">
+        <h3>Sistem Absensi Sekolah</h3>
+        <p>Aplikasi berbasis web yang memungkinkan pencatatan absensi siswa secara otomatis dengan QR Code.</p>
+      </div>
+      <div class="project-card">
+        <h3>Konfigurasi Jaringan LAN</h3>
+        <p>Membuat topologi jaringan lokal di lab menggunakan Mikrotik dan switch manageable untuk pembelajaran efektif.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Kontak</h2>
+      <p>Email: fabian.akbar@example.com</p>
+      <p>Instagram: @fabian.maliki</p>
+      <p>Github: github.com/fabianakbar</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Fabian Maliki Akbar. All rights reserved.</p>
+  </footer>
+</body>
+</html>
